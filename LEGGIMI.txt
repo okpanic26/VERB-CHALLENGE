@@ -1,9 +1,11 @@
-VERB CHALLENGE — iPhone, iPad, Mac e PC
+VERB CHALLENGE — aggiornamento archivio e pulsante ESCI
 
-Per usare su iPhone con Safari e aggiungere alla schermata Home: pubblicare tutti i file di questa cartella su un hosting HTTPS (per esempio GitHub Pages). Aprire il link pubblico in Safari, Condividi > Aggiungi alla schermata Home. Dopo il primo caricamento, la PWA puo funzionare offline.
+Carica i file di questa cartella nella directory principale del repository GitHub VERB-CHALLENGE, sovrascrivendo quelli esistenti.
 
-Per Mac/PC: aprire index.html in browser, oppure il file unico Verb_Challenge_Offline.html.
+Novità:
+- Archivio ampliato con 97 verbi aggiuntivi e 485 forme semplici.
+- Pulsante ESCI DALLA SFIDA con conferma: la partita interrotta non viene conteggiata.
+- Riduzione delle ripetizioni tra partite dello stesso profilo.
+- Aggiornamento cache offline alla versione 26.
 
-ATTENZIONE: iOS Anteprima/Files/WhatsApp possono mostrare solo l’intestazione di file HTML locali perché non eseguono JavaScript. Il pacchetto ZIP NON risolve questa limitazione da solo: serve un sito HTTPS per il funzionamento affidabile su iPhone.
-
-I progressi sono locali a ciascun browser/dispositivo, non sincronizzati. Usare Esporta/Importa profilo.
+I profili già salvati nel browser rimangono disponibili.
