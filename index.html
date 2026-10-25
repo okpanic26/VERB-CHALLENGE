@@ -56,8 +56,9 @@ button,input,select{font-family:inherit}.actions{flex-wrap:nowrap}.actions .btn.
 @keyframes fall{to{transform:translate(var(--x),105vh) rotate(var(--r))}}
 @media(max-width:600px){.tiles{grid-template-columns:1fr 1fr}.btn.big{width:100%}}
 @media(min-width:601px){.avatars{grid-template-columns:repeat(8,56px)}}
+.padcredit{text-align:center;font-size:13px;color:var(--muted);margin:16px 0 8px}.padcredit a{color:inherit;font-weight:800}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
-</style></head><body><div class="app"><div class="top"><div class="brand"><svg class="bookicon" viewBox="0 0 64 64" aria-hidden="true"><path d="M8 16c9-3 17-2 24 4v31c-7-5-15-6-24-3V16zm48 0c-9-3-17-2-24 4v31c7-5 15-6 24-3V16z" fill="#fffaf0" stroke="#e99a3a" stroke-width="3"/><path d="M32 20v31" stroke="#e99a3a" stroke-width="3"/></svg>VERB CHALLENGE<span class="flag" aria-hidden="true"></span></div><div class="user" id="topUser"></div></div><main class="main" id="main"></main></div>
+</style></head><body><div class="app"><div class="top"><div class="brand"><svg class="bookicon" viewBox="0 0 64 64" aria-hidden="true"><path d="M8 16c9-3 17-2 24 4v31c-7-5-15-6-24-3V16zm48 0c-9-3-17-2-24 4v31c7-5 15-6 24-3V16z" fill="#fffaf0" stroke="#e99a3a" stroke-width="3"/><path d="M32 20v31" stroke="#e99a3a" stroke-width="3"/></svg>VERB CHALLENGE<span class="flag" aria-hidden="true"></span></div><div class="user" id="topUser"></div></div><main class="main" id="main"></main></div><p class="padcredit">Un’app di <a href="https://www.padpodcast.com/officina/#app">PAD · Due umani, un’AI</a></p>
 <script>
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const AVATARS=['🦊','🐼','🐯','🦁','🐸','🐵','🦄','🐙','🐢','🦉','🐬','🐝','🚀','⚽','🎸','🎨'];
